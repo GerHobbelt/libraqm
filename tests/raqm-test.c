@@ -149,7 +149,7 @@ int
 main (int argc, char **argv)
 {
   FT_Library library;
-  FT_Face face;
+	FT_Face face = NULL;
 
   raqm_t *rq;
   raqm_glyph_t *glyphs;
